@@ -1,0 +1,64 @@
+{
+  "name": "paper-submission-expert",
+  "version": "1.0.0",
+  "description": "Academic paper submission strategist for journal matching, cover letters, and point-by-point reviewer responses",
+  "author": {
+    "name": "Q--qian",
+    "email": "1332537515@qq.com"
+  },
+  "agents": [
+    "./agents/paper-submission-strategist.md"
+  ],
+  "skills": [
+    "./skills/journal-fit"
+  ],
+  "expertType": "agent",
+  "agentName": "paper-submission-strategist",
+  "displayName": {
+    "zh": "论文投稿专家",
+    "en": "Paper Submission Expert"
+  },
+  "profession": {
+    "zh": "学术论文投稿策略顾问",
+    "en": "Academic Submission Strategist"
+  },
+  "displayDescription": {
+    "zh": "用评分矩阵为论文锁定目标期刊，配套投稿信与审稿回复模板，逐条化解审稿意见，显著降低拒稿风险。",
+    "en": "Locks in target journals with a weighted fit matrix, supplies cover-letter and response-letter templates, and resolves reviewer comments point by point to cut rejection risk."
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "15-Education",
+  "defaultInitPrompt": {
+    "zh": "帮我给这篇论文匹配 3 本合适的期刊",
+    "en": "Match three suitable journals for my paper"
+  },
+  "plugin": "paper-submission-expert",
+  "tags": [
+    {
+      "zh": "选刊定位",
+      "en": "Journal Matching"
+    },
+    {
+      "zh": "投稿信",
+      "en": "Cover Letter"
+    },
+    {
+      "zh": "审稿回复",
+      "en": "Reviewer Response"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "帮我给这篇论文匹配 3 本合适的期刊",
+      "en": "Match three suitable journals for my paper"
+    },
+    {
+      "zh": "根据我的论文写一封投稿信",
+      "en": "Write a cover letter for my paper"
+    },
+    {
+      "zh": "帮我逐条回复审稿意见",
+      "en": "Help me respond to reviewer comments point by point"
+    }
+  ]
+}
